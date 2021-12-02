@@ -28,9 +28,23 @@ body {
     text-align: center;
     color: white;
     font-family: 'Outfit', sans-serif;
+    font-size: .9rem;
 }
+
 h1 {
     font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:inherit;
+}
+
+a:hover {
+    color: var(--cyan);
 }
 
 .hr {
@@ -82,12 +96,9 @@ td {
     padding: 0;
 }
 
-
-
-.table-left {
-    text-align: left;
+.table-text{
+    font-size: .9rem;
 }
-
 .icon {
     width: .7rem;
     display:inline-block;
@@ -105,6 +116,7 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .card {
