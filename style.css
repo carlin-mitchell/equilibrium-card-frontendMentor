@@ -1,0 +1,170 @@
+:root {
+/* ### Primary */
+
+--softBlue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+
+/* ### Neutral */
+/* main BG */
+--backgroundDarkBlue: hsl(217, 54%, 11%);
+
+/* card BG */
+--veryDarkBlueCard: hsl(216, 50%, 16%);
+
+/* line */
+--veryDarkBlue: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+};
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html, body {
+    height: 98%;
+}
+
+body {
+    background-color: var(--backgroundDarkBlue);
+    text-align: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+h1 {
+    font-size: 1.2rem;
+}
+
+.hr {
+    border: none;
+    background-color: var(--veryDarkBlue);
+    width: 95%;
+    height: 1px;
+    margin: 15px auto;
+}
+
+
+.soft-blue {
+    color:hsl(215, 51%, 70%);
+}
+
+.cyan {
+    color:var(--cyan);
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    font-size: 1rem;
+    border-spacing: 0;
+
+}
+
+.money-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+td {
+    vertical-align: center;
+}
+
+.row-item{
+    display: inline-block;
+    align-content: center;
+    height: 100%;
+}
+.flex {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+}
+
+
+
+.table-left {
+    text-align: left;
+}
+
+.icon {
+    width: .7rem;
+    display:inline-block;
+    vertical-align: center;
+    border: none;
+    
+}
+
+.icon-clock {
+    width: 1rem;
+    border: none;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--veryDarkBlueCard);
+    border-radius: 12px;
+    box-sizing: border-box;
+    max-width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+.eth-amount{
+    margin-left: 6px;
+}
+
+.creator-icon {
+    width: 2rem;
+}
+
+.creator-info {
+    margin-left: 10px;
+}
+
+.days-left {
+    margin-left: 6px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    opacity: 0%;
+}
+
+.overlay:hover {
+    opacity: 25%;
+}
+
+.img-container {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.top-img {
+    width: 100%;
+    border-radius: 7px;
+    display: block;
+    border: none;
+}
+
+img {
+    width: 100%;
+    border:hsl(0, 0%, 100%) solid 1px;
+    border-radius: 100%;
+}
+
